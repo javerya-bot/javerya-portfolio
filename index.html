@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Javerya Tabasum — aspiring developer building thoughtful digital experiences with HTML, CSS, JavaScript and Python.">
+  <meta name="theme-color" content="#080d1b">
+  <title>Javerya Tabasum | Aspiring Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="preloader" id="preloader" aria-label="Loading portfolio">
+    <div class="loader-mark">J<span>.</span></div>
+    <p>PREPARING MY CREATIVE SPACE</p>
+    <div class="loader-track"><span id="loaderBar"></span></div>
+    <div class="loader-bottom"><span>WELCOME</span><strong id="loaderPercent">0%</strong></div>
+  </div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="stars" id="stars" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Javerya home"><span>J</span><i>.</i></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#contact">Let's connect <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse-dot"></span> STUDENT · ASPIRING DEVELOPER</div>
+        <p class="hero-kicker">HELLO, I'M</p>
+        <h1>Javerya<br><span class="gradient-text">Tabasum.</span></h1>
+        <h2>Curious mind. <span class="muted-heading">Creative builder.</span></h2>
+        <p class="hero-description">I enjoy turning ideas into clean, useful digital experiences. I’m learning, experimenting and building my way into the world of technology — one project at a time.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span>BASED IN PAKISTAN</span><span class="meta-line"></span><span>ALWAYS LEARNING</span></div>
+      </div>
+
+      <div class="hero-art reveal" aria-label="Decorative developer profile card">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="orbit orbit-c"></div>
+        <div class="shooting-star shooting-one"></div>
+        <div class="shooting-star shooting-two"></div>
+        <div class="profile-card glass-card">
+          <div class="card-heading"><span class="window-dots"><i></i><i></i><i></i></span><span>MY CREATIVE SPACE</span><span class="sparkle">✦</span></div>
+          <div class="avatar">JT</div>
+          <p class="card-overline">NICE TO MEET YOU</p>
+          <h3>Javerya Tabasum</h3>
+          <p class="card-role">Student &amp; Aspiring Developer</p>
+          <div class="card-rule"></div>
+          <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Figma</span></div>
+          <div class="card-footer"><span>MADE WITH CURIOSITY</span><span>✧</span></div>
+        </div>
+        <div class="float-chip chip-code">&lt;/&gt;</div>
+        <div class="float-chip chip-star">✦</div>
+        <div class="float-chip chip-spark">✧</div>
+        <div class="hanging-pass"><span class="pass-string"></span><div class="pass-card"><small>CREATIVE DEVELOPER</small><b>JT</b><span>JAVERYA TABASUM</span><i>BUILDING THE FUTURE</i></div></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section section-shell" id="about">
+      <div class="section-heading reveal"><p class="section-label">01 / ABOUT</p><h2>A little <span class="gradient-text">about me.</span></h2></div>
+      <div class="about-grid">
+        <article class="about-main glass-card reveal">
+          <div class="about-icon">✳</div>
+          <p class="about-lead">I’m Javerya — a student with a growing interest in computers, web development and creative technology.</p>
+          <p class="body-copy">I like exploring how things work, learning new tools and bringing small ideas to life through code. I’m at the beginning of my development journey, building practical projects and improving with every step.</p>
+          <p class="body-copy">My goal is to keep learning, gain real-world experience and contribute to meaningful digital projects.</p>
+        </article>
+        <div class="about-side">
+          <article class="info-card glass-card reveal"><span class="info-label">CURRENT FOCUS</span><h3>Web development</h3><p>Practising front-end fundamentals and building projects.</p></article>
+          <article class="info-card glass-card reveal"><span class="info-label">ALSO EXPLORING</span><h3>AI &amp; technology</h3><p>Learning about new tools and the possibilities they create.</p></article>
+          <article class="info-card glass-card reveal"><span class="info-label">LANGUAGES</span><h3>Urdu · Punjabi · English</h3><p>Communicating, learning and collaborating.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-shell" id="skills">
+      <div class="section-heading reveal"><p class="section-label">02 / SKILLS</p><h2>Tools I’m learning <span class="gradient-text">&amp; using.</span></h2><p class="section-intro">A growing toolkit built through practice, curiosity and hands-on projects.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card glass-card reveal"><div class="skill-symbol orange">5</div><h3>HTML</h3><p>Page structure &amp; semantic markup</p><span class="skill-status">PRACTISING</span></article>
+        <article class="skill-card glass-card reveal"><div class="skill-symbol blue">3</div><h3>CSS</h3><p>Layouts, styling &amp; responsive design</p><span class="skill-status">PRACTISING</span></article>
+        <article class="skill-card glass-card reveal"><div class="skill-symbol yellow">JS</div><h3>JavaScript</h3><p>Interactivity &amp; programming basics</p><span class="skill-status">LEARNING</span></article>
+        <article class="skill-card glass-card reveal"><div class="skill-symbol cyan">Py</div><h3>Python</h3><p>Programming fundamentals</p><span class="skill-status">LEARNING</span></article>
+        <article class="skill-card glass-card reveal"><div class="skill-symbol purple">F</div><h3>Figma</h3><p>Visual design &amp; interface ideas</p><span class="skill-status">EXPLORING</span></article>
+      </div>
+    </section>
+
+    <section class="section section-shell" id="projects">
+      <div class="section-heading reveal"><p class="section-label">03 / SELECTED WORK</p><h2>Things I’ve <span class="gradient-text">built.</span></h2><p class="section-intro">A few hands-on projects from my learning journey. More experiments are on the way.</p></div>
+      <div class="projects-grid">
+        <article class="project-card glass-card reveal">
+          <div class="project-visual weather-visual"><div class="weather-window"><span class="weather-sun">☀</span><strong>Weather</strong><small>Live weather experience</small><div class="weather-temp">24°</div><div class="weather-lines"><i></i><i></i><i></i></div></div><span class="visual-index">PROJECT 01</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">WEB APPLICATION</span><span class="project-number">01</span></div><h3>Weather App</h3><p>A weather app project with a clean blue glass-inspired interface.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="https://javerya-bot.github.io/Weather-App/" target="_blank" rel="noopener noreferrer">View live project <span>↗</span></a></div>
+        </article>
+        <article class="project-card glass-card reveal">
+          <div class="project-visual tech-visual"><div class="tech-window"><span class="tech-mark">T<span>P</span></span><strong>TechPath</strong><small>Learn technology, step by step.</small><div class="tech-bars"><i></i><i></i><i></i></div></div><span class="visual-index">PROJECT 02</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">CONTENT WEBSITE</span><span class="project-number">02</span></div><h3>TechPath</h3><p>A beginner-friendly technology tutorials website built to make learning more approachable.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="project-link" href="https://javerya-bot.github.io/Techpath/" target="_blank" rel="noopener noreferrer">View live project <span>↗</span></a></div>
+        </article>
+        <article class="project-card glass-card reveal">
+          <div class="project-visual book-visual"><div class="book-window"><span class="book-icon">▦</span><strong>Bookease</strong><small>Bookings made simpler.</small><div class="book-ui"><i></i><i></i><i></i><i></i></div></div><span class="visual-index">PROJECT 03</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">FULL-STACK PROJECT</span><span class="project-number">03</span></div><h3>Bookease</h3><p>A booking and management system concept currently in development.</p><div class="project-tags"><span>React</span><span>Node.js</span><span>PostgreSQL</span></div><span class="project-link project-progress">In progress <span>↗</span></span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="journey-band section-shell reveal">
+      <div><p class="section-label">THE JOURNEY</p><h2>Small steps. <span class="gradient-text">Real progress.</span></h2><p>I believe the best way to learn is to stay curious, keep building and improve a little every day.</p></div>
+      <div class="journey-mark">JT<span>.</span></div>
+    </section>
+
+    <section class="section section-shell contact-section" id="contact">
+      <div class="section-heading reveal"><p class="section-label">04 / CONTACT</p><h2>Have an idea? <span class="gradient-text">Let’s connect.</span></h2><p class="section-intro">I’m open to learning opportunities, collaborations, internships and beginner-friendly projects.</p></div>
+      <div class="contact-panel glass-card reveal">
+        <div><span class="contact-orb">✉</span><h3>Let’s make something meaningful.</h3><p>Find me on GitHub or LinkedIn. I’d love to connect and learn about what you’re building.</p></div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://github.com/javerya-bot" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+          <a class="button button-ghost" href="https://www.linkedin.com/in/javerya-t-10a962446/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><a class="brand footer-brand" href="#home">J<i>.</i></a><p>Designed &amp; built by Javerya Tabasum</p><a href="#home" class="back-top">BACK TO TOP ↑</a><span class="copyright">© <span id="year"></span> · KEEP LEARNING, KEEP BUILDING.</span></footer>
+</body>
+</html>
